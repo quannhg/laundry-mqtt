@@ -1,0 +1,11 @@
+localhost
+{
+    reverse_proxy /ws mqtt5:9001
+    reverse_proxy mqtt5:9001
+}
+
+mqtt.local
+{
+    reverse_proxy /ws mqtt5:9001
+    reverse_proxy mqtt5:9001
+}
